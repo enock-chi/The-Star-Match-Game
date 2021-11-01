@@ -1,0 +1,108 @@
+.game {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.body {
+  display: flex;
+  background-color: #932432;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+}
+
+#app{
+  position: relative;
+  background-color: #ccc;
+  width: 50vw;
+  padding: 20px;
+  border-radius: 10px ;
+  left: 30%;
+  top: 200px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+.help {
+  color: #666;
+  margin: 10px;
+  text-align: center;
+}
+.number{
+  border-radius: 5px;
+   
+}
+
+.left {
+  text-align: center;
+  width: 50%;
+  border: thin solid #ddd;
+}
+
+.right {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  border: thin solid #ddd;
+}
+
+.star {
+	display: inline-block;
+  margin: 0 15px;
+}
+
+.star:after {
+  content: "\2605";
+  font-size: 45px;
+}
+
+.number {
+  background-color: #eee;
+  border: thin solid #ddd;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.number:focus, .number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+.timer {
+	color: #666;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.game-done .message {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.timer{
+  color: black;
+}
+
+.help{
+  color: black;
+}
+
+.play-again{
+  width: 10vw;
+  height: 3vh;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  margin-top: 10px;
+
+}
+
+.game-stats{
+  position: relative;
+  margin-top: 5px;
+  font-weight: bold;
+}
